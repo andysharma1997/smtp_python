@@ -7,7 +7,7 @@ from typing import List
 
 
 def send_email(sender_address: str, sender_pass: str, to_mail: str, mail_content: str, subject: str,
-               file_paths: List[str] = None, file_names: List[str] = None):
+               file_paths: List[str] = None, file_names: List[str] = None) -> dict:
     """
     This is a simple function for sending email with file attachment option also.
     @author: andy
